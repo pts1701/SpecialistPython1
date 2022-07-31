@@ -17,7 +17,11 @@
 ```python
 # TODO: you code here...
 ```
-
+num = int(input())
+if num % 3 == 0 or num % 5 == 0:
+    print ("Yes")
+else:
+    print("No")
 ---
 
 ### Данные для самопроверки
