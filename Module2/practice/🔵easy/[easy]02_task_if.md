@@ -17,9 +17,13 @@
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
-```
+```money = int(input("Your money  "))
+price = int(input("Price  "))
+
+if money >= price:
+    print(money - price)
+else:
+    print("Not enough minerals")
 
 ---
 
