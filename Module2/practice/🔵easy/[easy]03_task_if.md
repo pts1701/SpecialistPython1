@@ -15,7 +15,15 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+# TODO: 
+a = int(input('a = '))
+b = int(input('b = '))
+c = int(input('c = '))
+
+if (a+b)>c and (a+c)>b and (c+b)>a:
+    print('Triangle')
+else:
+    print('Untriangle')
 ```
 
 ---
