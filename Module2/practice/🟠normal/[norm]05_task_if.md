@@ -17,7 +17,18 @@
 ```python
 # TODO: you code here...
 ```
+month = int(input('Input month number  '))
+if month < 1 or month > 12:
+    print('Not a month. Input month number')
 
+elif 3<=month<=5:
+    print('spring')
+elif 6<=month<=8:
+    print('summer')
+elif 9<=month<=11:
+    print('autumn')
+else:
+    print('winter')
 ---
 
 ### Данные для самопроверки
