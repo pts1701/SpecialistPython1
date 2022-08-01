@@ -21,7 +21,14 @@
 ```python
 # TODO: you code here...
 ```
+x = int(input('Input number  '))
 
+if x%5==0 and x%3==0:
+    print('Foobar')
+elif x%5==0:
+    print('Bar')
+elif x%3==0:
+    print('Foo')
 ---
 
 ### Данные для самопроверки
