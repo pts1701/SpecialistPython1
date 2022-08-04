@@ -37,12 +37,11 @@ n = 12
 
 ```python
 # TODO: you code here...
-cost = 9.99
-n = 12
+cost = float(input('input cost'))
+n = int(input('input count'))
 i = 1
 while i <= n:
-    cost1 = cost * i
+    print(i, cost * i)
     i += 1
-    print(i-1, cost1)
 ```
 
