@@ -37,5 +37,12 @@ n = 12
 
 ```python
 # TODO: you code here...
+cost = 9.99
+n = 12
+i = 1
+while i <= n:
+    cost1 = cost * i
+    i += 1
+    print(i-1, cost1)
 ```
 
