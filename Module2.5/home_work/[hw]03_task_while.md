@@ -29,6 +29,15 @@ n = 5
 
 ```python
 # TODO: you code here...
+num = int(input('Input number from 1 to 9: '))
+i = 1
+while i <= num:
+    j = 1
+    while j <= num:
+        print("{:4d}".format(j * i), end=" ")
+        j += 1
+    print()
+    i += 1
 ```
 
 ---
