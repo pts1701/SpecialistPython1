@@ -32,7 +32,15 @@ items = [
     },
 ]
 # Найдите:
-print("Товары на складе представлены брэндами: ")
+
+brands = []
+for item in items:
+    brands_tmp = item["brand"]
+    brands.append(brands_tmp)
+brands_set = set(brands)
+brands = list(brands_set)
+
+print("Товары на складе представлены брэндами: ", brands)
 
 # TODO: your code here
 
