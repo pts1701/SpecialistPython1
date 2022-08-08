@@ -3,4 +3,11 @@
 
 names = ["Иван", "Ирина", "Вячеслав", "Василий", "Петр"]
 
+names = ["Иван", "Ирина", "Вячеслав", "Василий", "Петр"]
+index = len(names[0])
+for name in names:
+    if index < len(name):
+        index = len(name)
+
+print(index) 
 # TODO: your code here
