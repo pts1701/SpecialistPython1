@@ -4,9 +4,13 @@
 
 text = 'брат мыл и брил бороду'
 
+
 if text.find('б') == 0:
     end = text.find(" ")
-    print(text[0:end])
+    if end >= 0:
+        print(text[0:end])
+    else:
+        print(text[0:])
 else:
     start_b = text.find(" б")
     end = text.find(" ", start_b + 1)
