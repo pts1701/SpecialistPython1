@@ -26,14 +26,12 @@ f = open(path, "r")
 # В переменную line считываем строку за стройкой из файла(f)
 for line in f:
     ...
-```
+
 
 lst = []
 with open("smth.txt", 'r', encoding='UTF-8') as f:
     for line in f:
         lst.append(line.replace('.', ''))
-
-
     with open("new.txt", 'w', encoding='UTF-8') as f:
         for line in lst:
             f.write(line)
