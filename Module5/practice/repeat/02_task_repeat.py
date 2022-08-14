@@ -4,4 +4,11 @@
 #  Пример палиндрома: 12321
 
 def palindrome(number):
-    pass
+    if str(number) == str(number)[::-1]:
+        result = "Yes"
+    else:
+        result = "No"
+    return result
+
+chislo = int(input("enter number: "))
+print(palindrome(chislo))
