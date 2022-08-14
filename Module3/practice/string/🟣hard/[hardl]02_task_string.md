@@ -15,7 +15,18 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+s1 = 'hello my name is Boris'
+s2 = 'isBrod'
+
+data1 = set(s1)
+data2 = set(s2)
+
+result = data1.intersection(data2)
+
+if data2 == result:
+    print('Yes')
+else:
+    print('No')
 ```
 
 ---
