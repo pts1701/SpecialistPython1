@@ -30,7 +30,17 @@ for line in f:
 print(f"Сумма чисел = {sum_numbers}")
 print(f"Среднеарифметическое = {...}")
 ```
+summa = 0
+avrg = 0
+count = 0
+with open("smth.txt", 'r') as f:
+    for line in f:
+        summa = summa + int(line)
+        count = count + 1
+    avrg = summa / count
 
+    print(f"Сумма чисел = {summa}")
+    print(f"Среднеарифметическое = {avrg}")
 ---
 
 ### Подсказки
