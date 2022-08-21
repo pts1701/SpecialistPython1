@@ -19,8 +19,8 @@
 
 Записать названия фруктов в разные файлы в соответствии с условием задачи.
 
-### Решение задачи
-
+Решение задачи
+'''
 result = {}
 for i in range(ord('А'), ord('Я')+1):
     result[chr(i)] = []
@@ -33,7 +33,7 @@ for key, value in result.items():
         with open(f'result/fruits_{key}.txt', 'a', encoding='UTF8') as newfile:
             for el in value:
                 newfile.write(el)
-
+'''
 ### Подсказки
 
 <details>
